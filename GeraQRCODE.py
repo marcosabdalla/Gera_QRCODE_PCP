@@ -2,6 +2,9 @@ import qrcode
 import streamlit as st
 import io
 
+st.title('#13390# GLL Soluções')
+st.subheader('Gerador de QR-Code')
+
 # Text input area
 txt = st.empty()
 code = txt.text_input(label="Texto para o QR-Code")
